@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import VBotAssistant from './components/VBotAssistant';
 import { mockParts, mockCars, mockCustomers, mockSales, mockMaintenance } from './data/mockData';
 
-const CARS_PER_PAGE = 24;
+const CARS_PER_PAGE = 2000;
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<Tab>(Tab.Dashboard);
